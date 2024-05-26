@@ -1,0 +1,83 @@
+{
+  "addresses": {
+    "BSC": {
+      "airdrop": "0xE68Be6bc53Dc36d0d2E09ea3289D872D637D62cA",
+      "lent-rent": "0x7C3BDb31fCE7bfE679A697B90a524fe53269c4Db",
+      "usdt": "0x55d398326f99059fF775485246999027B3197955",
+      "blacklist": "0xb1277f203E65A128F10BA937D5Ffa8F4D096b597"
+    },
+    "ETHEREUM": {
+      "airdrop": "0xE68Be6bc53Dc36d0d2E09ea3289D872D637D62cA",
+      "lent-rent": "0x7C3BDb31fCE7bfE679A697B90a524fe53269c4Db",
+      "usdt": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "blacklist": "0xb1277f203E65A128F10BA937D5Ffa8F4D096b597"
+    },
+    "POLYGON": {
+      "airdrop": "0x4EB8Bbb893Fc3FEE1FfF3cBC7b4a44a66b46697a",
+      "lent-rent": "0x35429a0E0551d38d1539E18A0e5ad42A6C8468ea",
+      "usdt": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "blacklist": "0x116AD7B643701DC29ea220E112Eae598A173ea93"
+    },
+    "KLAYTN": {
+      "airdrop": "0xE68Be6bc53Dc36d0d2E09ea3289D872D637D62cA",
+      "staking": "0xd58C10E3fB3f1089270Ae915D567A8eB59F0a74e",
+      "lent-rent": "0xD7346C5178d81Bb11d913Bc184e14C55D46F9B15",
+      "we": "0xfaea8f7839f343a52c11a2d5395406eb2a87c55b",
+      "usdt": "0xcee8faf64bb97a73bb51e115aa89c17ffa8dd167",
+      "governance": "0xD4713C5A8586f452E29830352705F4ff09B170a5",
+      "staking-tier": "0x7C3BDb31fCE7bfE679A697B90a524fe53269c4Db",
+      "staking-earn": "0x7cA8074F91978856732FCffed1D34273f6B8C7f1",
+      "blacklist": "0xb1277f203E65A128F10BA937D5Ffa8F4D096b597"
+    }
+  },
+  "networks": {
+    "BSC": {
+      "id": 56,
+      "chainId": "0x38",
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://bsc-dataseed.binance.org/"],
+      "chainName": "Binance Smart Chain",
+      "blockExplorerUrls": ["https://bscscan.com"]
+    },
+    "ETHEREUM": {
+      "id": 1,
+      "chainId": "0x1",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://eth.llamarpc.com"],
+      "chainName": "Ethereum Mainnet",
+      "blockExplorerUrls": ["https://etherscan.io"]
+    },
+    "POLYGON": {
+      "id": 137,
+      "chainId": "0x89",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://polygon.llamarpc.com"],
+      "chainName": "Polygon Mainnet",
+      "blockExplorerUrls": ["https://polygonscan.com"]
+    },
+    "KLAYTN": {
+      "id": 8217,
+      "chainId": "0x2019",
+      "nativeCurrency": {
+        "name": "KLAY",
+        "symbol": "KLAY",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://public-node-api.klaytnapi.com/v1/cypress"],
+      "chainName": "Klaytn Mainnet",
+      "blockExplorerUrls": ["https://scope.klaytn.com"]
+    }
+  }
+}

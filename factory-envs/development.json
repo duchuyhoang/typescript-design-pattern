@@ -1,0 +1,85 @@
+{
+  "addresses": {
+    "BSC": {
+      "airdrop": "0x37b563a712e982b5cfa1A12C5B00eC9D9370D172",
+      "lent-rent": "0x54f3266341c0E7f7CF57eEbF0A50bfb12f82d10E",
+      "usdt": "0x957BBe7B63e13A0aBEBA1270c8453390c0E0C87F",
+      "blacklist": "0xD297a9D84B2fb4615Af1B80519B8822CbF3A31D2"
+    },
+    "ETH": {
+      "airdrop": "0x50C5b6BCB1f62E83575b32137ff792Da3CF61D93",
+      "lent-rent": "0xb20FbdE485c4122CCC2f2c5c981EE625d8612Ac1",
+      "usdt": "0xcAca7848d5a28554aB65a48FF9047bf221D1fd0d",
+      "blacklist": "0xC20B980632d9e890f21F703e392B6aB2a470255c"
+    },
+    "POLYGON": {
+      "airdrop": "0xa08793C16018FF7974eC4151aeD6C4EfEd7F18D0",
+      "lent-rent": "0x7413A37b70c386deA923d89a61305F34e4fEC5c6",
+      "usdt": "0xe7129C709679569B49eE77acAAF4ADe723168081",
+      "blacklist": "0x710297428571fE635eD75Ff6a7480dFDFaEea20F"
+    },
+    "KLAYTN": {
+      "airdrop": "0xc989d759a35F2a2e132b9A67a9044ee2775F449b",
+      "staking": "0xd58C10E3fB3f1089270Ae915D567A8eB59F0a74e",
+      "lent-rent": "0x35De21613b0027ac04B3bf31C202e0c996c8437A",
+      "we": "0x4697a604Da332B78A886FC1Ad37283f951e40451",
+      "usdt": "0xff0729503430faa5f46cDbe5237fC8D619bF43Ca",
+      "governance": "0xc58135cE6f4a3768ea65a0B154f8279724b47260",
+      "staking-tier": "0x05d40366aA3cCA80ad19a146856216641C3ca512",
+      "staking-earn": "0x54055B4f97d71665C010d0dB114f2dF9d2c80123",
+      "blacklist": "0x29D0EfbEe05136B37109D4Fe49cB4d38B9126EAC"
+    }
+  },
+  "networks": {
+    "BSC": {
+      "id": 97,
+      "chainId": "0x61",
+      "nativeCurrency": {
+        "name": "BNB",
+        "symbol": "BNB",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://data-seed-prebsc-1-s1.binance.org:8545/"],
+      "chainName": "Binance Smart Chain TESTNET",
+      "blockExplorerUrls": ["https://testnet.bscscan.com"]
+    },
+    "ETH": {
+      "id": 5,
+      "chainId": "0x5",
+      "nativeCurrency": {
+        "name": "ETH",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://ethereum-goerli-rpc.allthatnode.com"],
+      "chainName": "Goerli Ethereum TESTNET",
+      "blockExplorerUrls": ["https://goerli.etherscan.io"]
+    },
+    "POLYGON": {
+      "id": 80001,
+      "chainId": "0x13881",
+      "nativeCurrency": {
+        "name": "MATIC",
+        "symbol": "MATIC",
+        "decimals": 18
+      },
+      "rpcUrls": [
+        "https://polygon-mumbai.g.alchemy.com/v2/uBlQT6aXmYWJJeVnsY_AdVR79Vj35NHF"
+      ],
+      "chainName": "MUMBAI testnet",
+      "blockExplorerUrls": ["https://mumbai.polygonscan.com"]
+    },
+    "KLAYTN": {
+      "id": 1001,
+      "chainId": "0x3e9",
+      "nativeCurrency": {
+        "name": "KLAY",
+        "symbol": "KLAY",
+        "decimals": 18
+      },
+      "rpcUrls": ["https://klaytn-baobab-rpc.allthatnode.com:8551"],
+      "chainName": "KLAY TESTNET",
+      "blockExplorerUrls": ["https://baobab.scope.klaytn.com"]
+    }
+  }
+}

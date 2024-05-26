@@ -1,0 +1,27 @@
+{
+  "name": "ts-design-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "factory": "ts-node --esm factory.ts",
+    "start": "ts-node --esm index.ts",
+    "singleton": "ts-node --esm singleton.ts",
+    "bridge": "ts-node --esm bridge.ts",
+    "adapter": "ts-node --esm adapter.ts",
+    "strategy": "ts-node --esm strategy.ts"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "dom-parser": "^1.1.5",
+    "ethers": "^6.8.1"
+  }
+}
